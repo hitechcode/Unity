@@ -1,4 +1,4 @@
-c class NativeBasics extends UnityPlayerActivity{
+class NativeBasics extends UnityPlayerActivity{
     public static Context mContext;
       
      @Override
