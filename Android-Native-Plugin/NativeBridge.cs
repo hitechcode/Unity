@@ -1,4 +1,4 @@
-f UNITY_ANDROID
+#if UNITY_ANDROID
     public static void showSimpleAlert(string msg){
         AndroidJavaClass jClass = new AndroidJavaClass ("com.your.package.NativeBasics");
         if (jClass != null) {
